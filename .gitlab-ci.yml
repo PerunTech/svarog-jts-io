@@ -1,0 +1,24 @@
+stages:
+  - build
+  #- sonarqube
+
+before_script:
+  - git reset --hard $CI_COMMIT_SHA
+  - git clean -df
+  - git stash
+  - git pull origin $CI_COMMIT_SHA
+  
+svarog-jts-io:
+  stage: build
+  script:  
+    - pwd
+    - git remote set-url origin git@gitlab.prtech.mk:svarogv3/svarog-jts-io.git
+    - git fetch origin $CI_COMMIT_SHA
+    - git reset --hard $CI_COMMIT_SHA
+    - git checkout $CI_COMMIT_SHA
+    - git clean -df
+    - git pull origin $CI_COMMIT_SHA
+    - git clean -df
+    - git reset --hard $CI_COMMIT_SHA
+    - mvn clean compile
+    - mvn install
