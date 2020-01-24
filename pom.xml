@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>svarog-jts-io</groupId>
 	<artifactId>svarog-jts-io</artifactId>
-	<version>1.14.0-SNAPSHOT</version>
+	<version>1.14.0</version>
 	<packaging>jar</packaging>
 	<name>svarog-jts-io</name>
 	<url>http://maven.apache.org</url>
