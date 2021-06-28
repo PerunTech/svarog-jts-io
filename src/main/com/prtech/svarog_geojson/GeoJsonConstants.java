@@ -30,7 +30,7 @@
  *     (250)385-6040
  *     www.vividsolutions.com
  */
-package com.vividsolutions.jts.io.svarog_geojson;
+package com.prtech.svarog_geojson;
 
 
 /**

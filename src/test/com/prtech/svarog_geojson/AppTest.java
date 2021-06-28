@@ -1,4 +1,4 @@
-package com.vividsolutions.jts.io.svarog_geojson;
+package com.prtech.svarog_geojson;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

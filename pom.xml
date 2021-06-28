@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>svarog-jts-io</groupId>
 	<artifactId>svarog-jts-io</artifactId>
-	<version>1.14.0</version>
+	<version>1.18.1</version>
 	<packaging>jar</packaging>
 	<name>svarog-jts-io</name>
 	<url>http://maven.apache.org</url>
@@ -53,9 +53,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.vividsolutions</groupId>
+			<groupId>org.locationtech.jts</groupId>
 			<artifactId>jts-core</artifactId>
-			<version>1.14.0</version>
+			<version>1.18.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
